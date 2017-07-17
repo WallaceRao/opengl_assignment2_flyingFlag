@@ -1,0 +1,20 @@
+Assignment 2
+Student Name: Yonghui Rao
+Student ID: 16093645
+
+This tarball includes several files:
+
+main.cpp: the primary cpp file, draws waving glag, flag pole and a surface. Reads, compiles and links vertex shader and fragment shader, vertex shader passes vertex color to fragment shader, and fragment shader makes the color darker.
+
+textFile.h/textFile.cpp: Read shaders.
+
+test.vert: Vertex shader source code.
+
+test.frag: Fragment shader source code.
+
+makefile: You can compile the source files via makefile or command " g++ -o test main.cpp textFile.cpp -lGL -lGLEW -lSOIL -lglfw3 -lrt -lm -ldl -lXrandr -lXinerama -lXxf86vm -lXcursor -lX11 -lpthread"
+
+screenShots: screen shots of the glfw window.
+
+The source code could be compiled on both linux and windows.	
+
